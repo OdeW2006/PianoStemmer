@@ -3,85 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Pianostemmer</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://unpkg.com/primereact/resources/themes/saga-blue/theme.css">
-    <link rel="stylesheet" href="https://unpkg.com/primereact/resources/primereact.min.css">
+    <title>Pianostemmer</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/primeicons/primeicons.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="card">
-        <ul class="navbarStyle">
-            <li onclick="scrollToSection('welkom')"><i class="pi pi-home"></i> Dashboard</li>
-            <li onclick="scrollToSection('over-mij')"><i class="pi pi-star"></i> Over mij</li>
-            <li onclick="scrollToSection('ervaring')"><i class="pi pi-envelope"></i> Ervaring</li>
-            <li onclick="scrollToSection('contact')"><i class="pi pi-envelope"></i> Contact</li>
-        </ul>
-    </div>
 
-    <div class="container">
-        <!-- Welkom -->
-        <div id="welkom" class="pagePart">
-            <label class="headerStyle">Welkom</label>
-            <div class="welcomeGrid">
-                <div class="welcomeTextField">
-                    <label class="welcomeInfo">
-                        Klinkt uw piano niet meer zoals voorheen? Is hij ontstemd en toe aan een professionele stembeurt? Dan bent u hier aan het juiste adres!<br><br>
-                        Ik ben een ervaren en gepassioneerde pianostemmer met jarenlange expertise in het stemmen en onderhouden van piano's. Een goed gestemde piano zorgt niet alleen voor een prachtige, zuivere klank, maar verlengt ook de levensduur van uw instrument.<br><br>
-                        Of u nu een professionele pianist bent, een enthousiaste amateur of een trotse eigenaar van een familiepiano, ik zorg ervoor dat uw instrument weer perfect klinkt. Met nauwkeurigheid en vakmanschap breng ik uw piano terug naar zijn optimale stemming, zodat u weer volop kunt genieten van het spelen.<br><br>
-                        Bent u geïnteresseerd in een stembeurt? Neem gerust een kijkje op mijn website voor meer informatie of om direct een afspraak in te plannen. Ik help u graag om uw piano weer in topconditie te brengen!
-                    </label>
+    <header class="navbar">
+        <nav>
+            <ul class="nav-list">
+                <li onclick="scrollToSection('welkom')"><i class="pi pi-home"></i> <span>Welkom</span></li>
+                <li onclick="scrollToSection('over-mij')"><i class="pi pi-user"></i> <span>Over mij</span></li>
+                <li onclick="scrollToSection('ervaring')"><i class="pi pi-briefcase"></i> <span>Ervaring</span></li>
+                <li onclick="scrollToSection('contact')"><i class="pi pi-envelope"></i> <span>Contact</span></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welkom" class="page-section">
+            <h1>Welkom</h1>
+            <div class="content-grid">
+                <div class="text-block">
+                    <p>
+                        Klinkt uw piano niet meer zoals voorheen? Is hij ontstemd en toe aan een professionele stembeurt? Dan bent u hier aan het juiste adres!
+                        <br><br>
+                        Ik ben een ervaren en gepassioneerde pianostemmer met jarenlange expertise in het stemmen en onderhouden van piano's.
+                        Een goed gestemde piano zorgt niet alleen voor een prachtige, zuivere klank, maar verlengt ook de levensduur van uw instrument.
+                        <br><br>
+                        Of u nu een professionele pianist bent, een enthousiaste amateur of een trotse eigenaar van een familiepiano: ik zorg ervoor dat uw instrument weer perfect klinkt.
+                    </p>
                 </div>
-                <div class="welcomImageField">
-                    <img class="pianoImage" src="./Images/PianoFoto.png" alt="Foto kan niet worden geladen.">
+                <div class="image-block">
+                    <img src="./Images/PianoFoto.png" alt="Piano foto">
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Over mij -->
-        <div id="over-mij" class="pagePartSecond">
-            <label class="headerStyle">Over mij</label>
-        </div>
+        <section id="over-mij" class="page-section alt">
+            <h1>Over mij</h1>
+            <p>Ik ben een professionele pianostemmer met passie voor het vak. Met oog voor detail en liefde voor het instrument help ik mensen hun piano weer tot leven te brengen.</p>
+        </section>
 
-        <!-- Ervaring -->
-        <div id="ervaring" class="pagePart">
-            <label class="headerStyle">Ervaring</label>
-        </div>
+        <section id="ervaring" class="page-section">
+            <h1>Ervaring</h1>
+            <p>Meer dan 10 jaar ervaring met pianostemmen bij muziekscholen, theaters, en particuliere klanten. Ik werk zowel met moderne als antieke piano’s.</p>
+        </section>
 
-        <!-- Contact -->
-        <div id="contact" class="pagePartSecond">
-            <label class="header">Contact</label>
-            <form class="contactForm">
-                <div class="formPart">
-                    <label>Naam</label>
-                    <input type="text" />
+        <section id="contact" class="page-section alt">
+            <h1>Contact</h1>
+            <form class="contact-form">
+                <label>Naam</label>
+                <input type="text" name="naam" required>
 
-                    <label>Achternaam</label>
-                    <input type="text" />
-                    <br>
-                </div>
-                <div class="formPart">
-                    <label>Email adres</label>
-                    <input type="email" />
+                <label>Achternaam</label>
+                <input type="text" name="achternaam" required>
 
-                    <label>Telefoonnummer</label>
-                    <input type="tel" />
-                    <br>
-                    <label>Bericht</label><br />
-                    <textarea></textarea>
-                </div>
+                <label>Email adres</label>
+                <input type="email" name="email" required>
+
+                <label>Telefoonnummer</label>
+                <input type="tel" name="telefoon">
+
+                <label>Bericht</label>
+                <textarea name="bericht" rows="5"></textarea>
+
+                <button type="submit">Verstuur</button>
             </form>
-        </div>
-    </div>
+        </section>
+    </main>
 
     <script>
         function scrollToSection(id) {
-            const element = document.getElementById(id);
-            if (element) {
+            const el = document.getElementById(id);
+            if (el) {
                 window.scrollTo({
-                    top: element.offsetTop - 60,
-                    behavior: 'smooth'
+                    top: el.offsetTop - 60,
+                    behavior: "smooth"
                 });
             }
         }
