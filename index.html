@@ -1,13 +1,91 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Pianostemmer</title>
+    <link rel="stylesheet" href="css/Dashboard.module.css">
+    <link rel="stylesheet" href="css/Navbar.module.css">
+    <link rel="stylesheet" href="https://unpkg.com/primereact/resources/themes/saga-blue/theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/primereact/resources/primereact.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeicons/primeicons.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="card">
+        <ul class="navbarStyle">
+            <li onclick="scrollToSection('welkom')"><i class="pi pi-home"></i> Dashboard</li>
+            <li onclick="scrollToSection('over-mij')"><i class="pi pi-star"></i> Over mij</li>
+            <li onclick="scrollToSection('ervaring')"><i class="pi pi-envelope"></i> Ervaring</li>
+            <li onclick="scrollToSection('contact')"><i class="pi pi-envelope"></i> Contact</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!-- Welkom -->
+        <div id="welkom" class="pagePart">
+            <label class="headerStyle">Welkom</label>
+            <div class="welcomeGrid">
+                <div class="welcomeTextField">
+                    <label class="welcomeInfo">
+                        Klinkt uw piano niet meer zoals voorheen? Is hij ontstemd en toe aan een professionele stembeurt? Dan bent u hier aan het juiste adres!<br><br>
+                        Ik ben een ervaren en gepassioneerde pianostemmer met jarenlange expertise in het stemmen en onderhouden van piano's. Een goed gestemde piano zorgt niet alleen voor een prachtige, zuivere klank, maar verlengt ook de levensduur van uw instrument.<br><br>
+                        Of u nu een professionele pianist bent, een enthousiaste amateur of een trotse eigenaar van een familiepiano, ik zorg ervoor dat uw instrument weer perfect klinkt. Met nauwkeurigheid en vakmanschap breng ik uw piano terug naar zijn optimale stemming, zodat u weer volop kunt genieten van het spelen.<br><br>
+                        Bent u geïnteresseerd in een stembeurt? Neem gerust een kijkje op mijn website voor meer informatie of om direct een afspraak in te plannen. Ik help u graag om uw piano weer in topconditie te brengen!
+                    </label>
+                </div>
+                <div class="welcomImageField">
+                    <img class="pianoImage" src="./Images/PianoFoto.png" alt="Foto kan niet worden geladen.">
+                </div>
+            </div>
+        </div>
+
+        <!-- Over mij -->
+        <div id="over-mij" class="pagePartSecond">
+            <label class="headerStyle">Over mij</label>
+        </div>
+
+        <!-- Ervaring -->
+        <div id="ervaring" class="pagePart">
+            <label class="headerStyle">Ervaring</label>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="pagePartSecond">
+            <label class="header">Contact</label>
+            <form class="contactForm">
+                <div class="formPart">
+                    <label>Naam</label>
+                    <input type="text" />
+
+                    <label>Achternaam</label>
+                    <input type="text" />
+                    <br>
+                </div>
+                <div class="formPart">
+                    <label>Email adres</label>
+                    <input type="email" />
+
+                    <label>Telefoonnummer</label>
+                    <input type="tel" />
+                    <br>
+                    <label>Bericht</label><br />
+                    <textarea></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                window.scrollTo({
+                    top: element.offsetTop - 60,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    </script>
+</body>
 </html>
