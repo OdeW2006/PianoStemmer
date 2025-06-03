@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|c:\\frontendkeuzedeel\\pianostemmerproject\\components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|solutionrelative:components\\navbar.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|c:\\frontendkeuzedeel\\pianostemmerproject\\css\\dashboard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|solutionrelative:css\\dashboard.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|c:\\frontendkeuzedeel\\pianostemmerproject\\pages\\dashboardpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|solutionrelative:pages\\dashboardpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|c:\\frontendkeuzedeel\\pianostemmerproject\\css\\navbar.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|solutionrelative:css\\navbar.module.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|c:\\frontendkeuzedeel\\pianostemmerproject\\css\\override.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|solutionrelative:css\\override.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|c:\\frontendkeuzedeel\\pianostemmerproject\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{208ACF49-3F0A-0C66-F6E0-C3A98C3FE13B}|pianostemmerproject.esproj|solutionrelative:src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Navbar.module.css",
+              "DocumentMoniker": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\css\\Navbar.module.css",
+              "RelativeDocumentMoniker": "css\\Navbar.module.css",
+              "ToolTip": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\css\\Navbar.module.css",
+              "RelativeToolTip": "css\\Navbar.module.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-11T12:20:27.279Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Navbar.tsx",
+              "DocumentMoniker": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\components\\Navbar.tsx",
+              "RelativeDocumentMoniker": "components\\Navbar.tsx",
+              "ToolTip": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\components\\Navbar.tsx",
+              "RelativeToolTip": "components\\Navbar.tsx",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-04-03T14:41:58.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Override.css",
+              "DocumentMoniker": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\css\\Override.css",
+              "RelativeDocumentMoniker": "css\\Override.css",
+              "ToolTip": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\css\\Override.css",
+              "RelativeToolTip": "css\\Override.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-11T12:35:39.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\src\\App.tsx",
+              "RelativeDocumentMoniker": "src\\App.tsx",
+              "ToolTip": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\src\\App.tsx",
+              "RelativeToolTip": "src\\App.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-11T12:22:37.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.module.css",
+              "DocumentMoniker": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\css\\Dashboard.module.css",
+              "RelativeDocumentMoniker": "css\\Dashboard.module.css",
+              "ToolTip": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\css\\Dashboard.module.css",
+              "RelativeToolTip": "css\\Dashboard.module.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-11T12:19:08.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardPage.tsx",
+              "DocumentMoniker": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\pages\\DashboardPage.tsx",
+              "RelativeDocumentMoniker": "pages\\DashboardPage.tsx",
+              "ToolTip": "C:\\FrontendKeuzedeel\\PianoStemmerProject\\pages\\DashboardPage.tsx",
+              "RelativeToolTip": "pages\\DashboardPage.tsx",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-11T12:18:38.505Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
