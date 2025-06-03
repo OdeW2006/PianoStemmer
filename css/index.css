@@ -120,3 +120,7 @@ main {
     background-color: #444;
 }
 
+.textStyle{
+    color:black;
+    font-size:2rem;
+}
