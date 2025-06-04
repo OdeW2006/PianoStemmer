@@ -51,6 +51,12 @@ section {
     background-color: #d9d9d9;
 }
 
+#galerij{
+    background-image:url("../images/PianoBackground.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
 .imageSize {
     width: 100%;
     max-width: 600px;
@@ -68,6 +74,7 @@ section {
 
     .contactForm:hover {
         transform: translateY(-5px);
+        cursor:pointer;
     }
 
 .sendButton {
@@ -124,4 +131,21 @@ section {
 
 .carousel-indicators .active {
     background-color: var(--accent-color);
+}
+
+.navbarLinks{
+    font-size:1.2rem;
+    gap:2rem;
+}
+
+.siteLogo{
+    width:3rem;
+    height:3rem;
+    border-radius:10px;
+    margin-right:1.5rem;
+}
+
+.siteLogoGroot{
+  border:solid 1px black;
+  border-radius:5px;
 }
